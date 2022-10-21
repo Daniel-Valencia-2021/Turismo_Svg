@@ -1,0 +1,14 @@
+*{
+    background: rgb(86, 95, 97);
+}
+
+.mapa{
+    width: 50%;
+    margin: auto;
+}
+
+.mapa path{
+    fill: #f0e68c;
+    stroke: #8b8b8b;
+    stroke-width: 2px;
+}
