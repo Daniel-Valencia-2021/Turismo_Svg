@@ -12,3 +12,8 @@
     stroke: #8b8b8b;
     stroke-width: 2px;
 }
+
+.mapa :hover{
+    fill: salmon;
+}
+

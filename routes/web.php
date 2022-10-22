@@ -19,7 +19,7 @@ use App\Http\Controllers\ZonaController;
 
 Route::controller(ZonaController::class)->group(function () {
 
-    Route::get('/', 'index');
+    Route::get('/', 'index')->name('home');
 
-    Route::get('/laguajira','LaGuajira');
+    Route::get('/laguajira','LaGuajira')->name('guajira');
 });
