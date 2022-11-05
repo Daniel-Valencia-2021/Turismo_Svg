@@ -13,8 +13,12 @@
     stroke-width: 2px;
 }
 
-.mapa :hover{
-    fill: rgb(99, 51, 62) !important;
+.mapa path:hover{
+    fill: rgb(99, 51, 62);
+    stroke-width: 3px;
 }
 
-/*DIOS OTRA VEZ NOOOOOOOOOOOOOOOOOOOOOO*/
+
+
+
+/*DIOS OTRA VEZ NO*/
