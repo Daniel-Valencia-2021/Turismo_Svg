@@ -47,8 +47,8 @@ display: block;
 
   .slide-container {
     position: relative;
-    width: 35vw;
-    height: 35vw;
+    width: 45vw;/*Tamaño img central*/
+    height: 45vw;/*Tamaño img central*/
     margin: 100px auto;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
@@ -56,12 +56,13 @@ display: block;
     transition: all .3s;
   }
 
+
   .slide-container .slide {
     position: absolute;
     top: 0;
     left: 0;
-    width: 8vw;
-    height: 8vw;
+    width: 10vw;/*Tamaño de los pequeños*/
+    height: 10vw;/**tamaño de los pequeños*/
     margin-top: -4vw;
     margin-left: -4vw;
     background: url(https://images.unsplash.com/photo-1613681230409-6423a38c43e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80) no-repeat center/cover;
@@ -121,6 +122,14 @@ display: block;
 
   .slide[data-slide-no="12"] {
     background-image: url(https://images.unsplash.com/photo-1621205360765-e05dfd5e4562?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80);
+  }
+
+  .slide[data-slide-no="13"] {
+    background-image: url(../img/colombia1.jpg);
+  }
+
+  .slide[data-slide-no="14"] {
+    background-image: url(https://images.unsplash.com/photo-1613681230409-6423a38c43e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
   }
 
   .slide.active,

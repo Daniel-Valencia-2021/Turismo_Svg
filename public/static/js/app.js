@@ -61,7 +61,7 @@ const animateSlide = () => {
   }
 
   const activeSlide = document.querySelector('.slide.active');
-  const slideBgImg = getComputedStyle(activeSlide).backgroundImage;
+  const slideBgImg = document.querySelectorAll(activeSlide).backgroundImage;
 
   container.style.backgroundImage = slideBgImg;
 }
@@ -81,8 +81,8 @@ positionSlides();
 nextSlide();
 autoPlay();
 
-btnPrev.addEventListener('click', prevSlide);
-btnNext.addEventListener('click', nextSlide);
+/*btnPrev.addEventListener('click', prevSlide);
+btnNext.addEventListener('click', nextSlide);*/
 btns.forEach(btn => {
   btn.addEventListener('mouseenter', () => clearInterval(setId));
   btn.addEventListener('mouseleave', () => {

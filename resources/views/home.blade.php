@@ -42,11 +42,14 @@
         <div class="slide" data-slide-no="10"></div>
         <div class="slide" data-slide-no="11"></div>
         <div class="slide" data-slide-no="12"></div>
-      </div>
-      <div class="button-wrap">
+        <div class="slide" data-slide-no="13"></div>
+        <div class="slide" data-slide-no="14"></div>
+
+    </div>
+<!--      <div class="button-wrap">
         <button type="button" class="btn btn-prev">prev</button>
         <button type="button" class="btn btn-next">next</button>
-      </div>
+      </div>-->
 <!---
     <div class="mapa">
         <svg version="1.2" viewbox="0 0 1000 1195" xmlns="http://www.w3.org/2000/svg">
