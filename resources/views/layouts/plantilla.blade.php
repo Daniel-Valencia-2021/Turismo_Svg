@@ -15,15 +15,20 @@
 
     <!--SIN CACHE-->
 
+    <script src="{{ asset('static/js/app.js') }}"></script>
+
     <title>@yield('title')</title>
 </head>
-<@php
-header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
-header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
+@php
+    header('Cache-Control: no-cache, must-revalidate'); // HTTP/1.1
+    header('Expires: Sat, 1 Jul 2000 05:00:00 GMT'); // Fecha en el pasado
 @endphp
 
 <body>
-    <center> @yield('content')</center>
+    <center> @yield('content')
+        <a href="javascript:history.back()">Volver Atrás</a>
+
+    </center>
 </body>
 
 </html>
