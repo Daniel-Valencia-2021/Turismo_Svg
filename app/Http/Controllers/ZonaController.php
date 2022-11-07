@@ -16,4 +16,22 @@ class ZonaController extends Controller
     {
         return view ('zonas.laguajira');
     }
+
+    public function zona(){
+        return view ('zonas.index');
+    }
+
+    public function destino(){
+        return view ('zonas.destination');
+    }
+
+    public function contacto(){
+        return view ('zonas.contact');
+    }
+
+    public function blog(){
+        return view ('zonas.blog');
+    }
+
+
 }

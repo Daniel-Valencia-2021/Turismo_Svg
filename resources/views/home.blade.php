@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="{{ asset('static/css/app.css') }}">
     <title>Zonas turisticas</title>
+
+    <link rel="icon"  href="{{ asset('static/images/ICONO.png')}}">
+
 </head>
 
 <body>
@@ -30,7 +33,7 @@
         </center>
     </header>
     <div class="slide-container">
-        <a href="{{ route('guajira') }}"><div class="slide" data-slide-no="1"><center> <p>La Guajira</p> </center></div></a>
+        <a href="{{ route('zona') }}"><div class="slide" data-slide-no="1"><center> <p>La Guajira</p> </center></div></a>
         <div class="slide" data-slide-no="2"></div>
         <div class="slide" data-slide-no="3"></div>
         <div class="slide" data-slide-no="4"></div>
