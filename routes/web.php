@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactanosController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ZonaController;
@@ -26,9 +27,10 @@ Route::controller(ZonaController::class)->group(function () {
     Route::get('/zona','zona')->name('zona');
 
     Route::get('/destino','destino')->name('destino');
-
-    Route::get('/contacto','contacto')->name('contacto');
-
     Route::get('/blog','blog')->name('blog');
 
 });
+
+Route::get('/contacto',[ContactanosController::class, 'index'])->name('contacto');
+
+Route::post('/contacto',[ContactanosController::class, 'store'])->name('contacto.store');

@@ -18,19 +18,15 @@ class ZonaController extends Controller
     }
 
     public function zona(){
-        return view ('zonas.index');
+        return view ('pages.index');
     }
 
     public function destino(){
-        return view ('zonas.destination');
-    }
-
-    public function contacto(){
-        return view ('zonas.contact');
+        return view ('pages.destination');
     }
 
     public function blog(){
-        return view ('zonas.blog');
+        return view ('pages.blog');
     }
 
 
