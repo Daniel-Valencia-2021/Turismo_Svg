@@ -15,12 +15,12 @@ class ZonaController extends Controller
 
     public function LaGuajira()
     {
-        return view ('zonas.laguajira');
+        $comentarios = Comentario::all();
+        return view ('zonas.guajira', compact('comentarios'));
     }
 
     public function zona(){
-        $comentarios = Comentario::all();
-        return view ('pages.index', compact('comentarios'));
+        return view ('home');
     }
 
     public function destino(){

@@ -6,7 +6,7 @@
             <div class="overlay"></div>
             <h2>Somos SysTurism</h2>
             <p>Colombia y su biodiversidad plasmada en este sitio web</p>
-            <p class="mb-0"><a href="contact.html" class="btn btn-primary px-4 py-3">Contactenos</a></p>
+            <p class="mb-0"><a href="{{ route('contacto') }}" class="btn btn-primary px-4 py-3">Contactenos</a></p>
           </div>
         </div>
       </div>

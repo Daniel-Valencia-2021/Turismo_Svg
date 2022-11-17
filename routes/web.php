@@ -22,7 +22,7 @@ Route::controller(ZonaController::class)->group(function () {
 
     Route::get('/', 'index')->name('home');
 
-    Route::get('/laguajira','LaGuajira')->name('guajira');
+    Route::get('/guajira','LaGuajira')->name('guajira');
 
     Route::get('/zona','zona')->name('zona');
 
