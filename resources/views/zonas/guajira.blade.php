@@ -13,14 +13,14 @@
 
 
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('static/lugares/UIB.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('static/img/guajira/guajira.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
                     <span class="subheading">Welcome to SysTurism </span>
-                    <h1 class="mb-4">Descubre tu lugar favorito con nosotros</h1>
-                    <p class="caps">Viaja a cualquier rincón de colombia, sin dar vueltas</p>
+                    <h1 class="mb-4">La Guajira</h1>
+                    <p class="caps">Descubre tu lugar favorito</p>
                 </div>
                 <a href="https://www.youtube.com/watch?v=W-u-6o1FCso"
                     class="icon-video popup- nvimeo d-flex align-items-center justify-content-center mb-4">
@@ -56,8 +56,8 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-paragliding"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Surf</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    <h3 class="heading mb-3">Lorem</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantiu
                                     </p>
                                 </div>
                             </div>
@@ -68,8 +68,8 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-route"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Montañismo</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    <h3 class="heading mb-3">Lorem</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantiu
                                     </p>
                                 </div>
                             </div>
@@ -80,8 +80,8 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-tour-guide"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Excursion</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    <h3 class="heading mb-3">Lorem</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantiu
                                     </p>
                                 </div>
                             </div>
@@ -92,8 +92,8 @@
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-map"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Campamentos</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    <h3 class="heading mb-3">Lorem</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantiu
                                     </p>
                                 </div>
                             </div>
