@@ -27,7 +27,12 @@ Route::controller(ZonaController::class)->group(function () {
     Route::get('/zona','zona')->name('zona');
 
     Route::get('/destino','destino')->name('destino');
+
     Route::get('/blog','blog')->name('blog');
+
+    Route::get('/comentario','comentario')->name('comentario');
+    Route::post('/comentario', 'comentariosform')->name('comentariosform');
+
 
 });
 
