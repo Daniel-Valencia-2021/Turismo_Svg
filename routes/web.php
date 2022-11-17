@@ -24,6 +24,11 @@ Route::controller(ZonaController::class)->group(function () {
 
     Route::get('/guajira','LaGuajira')->name('guajira');
 
+    Route::get('/choco','Choco')->name('choco');
+
+    Route::get('/cartagena','Cartagena')->name('cartagena');
+
+
     Route::get('/zona','zona')->name('zona');
 
     Route::get('/destino','destino')->name('destino');

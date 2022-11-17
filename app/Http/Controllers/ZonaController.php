@@ -19,6 +19,18 @@ class ZonaController extends Controller
         return view ('zonas.guajira', compact('comentarios'));
     }
 
+    public function Choco()
+    {
+        $comentarios = Comentario::all();
+        return view ('zonas.choco', compact('comentarios'));
+    }
+
+    public function Cartagena()
+    {
+        $comentarios = Comentario::all();
+        return view ('zonas.cartagena', compact('comentarios'));
+    }
+
     public function zona(){
         return view ('home');
     }
